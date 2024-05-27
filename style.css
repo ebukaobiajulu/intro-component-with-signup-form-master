@@ -74,7 +74,9 @@ input{
     padding: 1rem 1.5rem;
     outline: none;
     border: solid rgb(223, 219, 219) 1px;
-    
+}
+input:hover{
+    border: solid var(--blue) 1.5px;
 }
 .form-control.success input{
     border-color: var(--green);
